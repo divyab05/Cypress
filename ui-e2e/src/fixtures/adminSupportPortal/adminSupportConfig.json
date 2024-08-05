@@ -1,0 +1,190 @@
+{
+  "readMe": "tenantId: this is subscriptionID or subID in address-book DB; tenantId in locker DB locationId: this is ID taken from address-book DB necessary for creating new department",
+  "config": {
+    "admin-dev": {
+      "URL": "https://spa-admin-ui-dev.sendpro360.pitneycloud.com/",
+      "admin_user": {
+        "userEmail": "advanced_supportauto@yopmail.com",
+        "userName": "Sohail Dev Admin1",
+        "password": "Horizon#123",
+        "enterpriseID": "?????",
+        "clientId": "????",
+        "clientSecret": "",
+        "locationId": "???????"
+      },
+      "adminBasicUser": {
+        "userEmail": "basic_supportauto@yopmail.com",
+        "password": "Horizon#123"
+      },
+      "client_user": {
+        "userEmail": "clientuiautomation02@yopmail.com",
+        "userName": "Automation Client User",
+        "password": "Horizon#123",
+        "enterpriseID": "?????",
+        "clientId": "0oa136ia3z2qUX2JV0h8",
+        "secret": "jTPHACMmjjJfuu7_3JXPBwTPpdrvxXqGRv9T0axd",
+        "locationId": "???????"
+      },
+      "err_user": {
+        "userEmail": "cypressdevuser01@mailinator.com",
+        "userName": "Automation Admin",
+        "password": "Aqswde@123",
+        "enterpriseID": "?????",
+        "clientId": "????",
+        "secret": "",
+        "locationId": "???????"
+      },
+      "userProfile_TestData": {
+        "userId": "00u19gg6vmrmB6WQC0h8",
+        "emailId": "testspongfraud13july22@yopmail.com",
+        "enterpriseName": "Plan Definition Automation",
+        "subscriptionId": "sa851c9",
+        "bPN": "0018210657",
+        "deviceId": "987654321",
+        "ssoUser": "unmesha_clientuser@yopmail.com",
+        "deviceIdOwner": "vmsuser@yopmail.com",
+        "ssoOktaId": "yopmail.com_unmesha_clientuser@yopmail.com",
+        "bpnUserId": "testspongfraud13july22@yopmail.com"
+      }
+    },
+    "admin-qa": {
+      "URL": "https://spa-admin-ui-qa.sendpro360.pitneycloud.com/",
+      "admin_user": {
+        "userEmail": "advanced_supportauto@yopmail.com",
+        "password": "Horizon#123"
+      },
+      "adminBasicUser": {
+        "userEmail": "basic_supportauto@yopmail.com",
+        "password": "Horizon#123"
+      },
+      "client_user": {
+        "userEmail": "supportAutoClient01@yopmail.com",
+        "userName": "Client Support Automation User",
+        "password": "Horizon#123",
+        "enterpriseID": "?????",
+        "clientId": "0oa136ia3z2qUX2JV0h8",
+        "secret": "jTPHACMmjjJfuu7_3JXPBwTPpdrvxXqGRv9T0axd",
+        "locationId": "???????"
+      },
+      "err_user": {
+        "userEmail": "cypressqauser01@mailinator.com",
+        "userName": "Automation Admin",
+        "password": "Aqswde@123",
+        "enterpriseID": "?????",
+        "clientId": "????",
+        "secret": "",
+        "locationId": "???????"
+      },
+      "userProfile_TestData": {
+        "userId": "00u1basfg77nFQmZ60h8",
+        "emailId": "locclientqa1@yopmail.com",
+        "enterpriseName": "August Automation Enterprise",
+        "subscriptionId": "2763",
+        "bPN": "0010566sd829",
+        "deviceId": "45803322",
+        "ssoUser": "spanalytics_admin@yopmail.com",
+        "deviceIdOwner": "qaclient_supportauto1@yopmail.com",
+        "ssoOktaId": "yopmail.com_spanalytics_admin@yopmail.com",
+        "bpnUserId": "locclientqa1@yopmail.com"
+      }
+    },
+    "admin-ppd": {
+      "URL": "https://admin-v2-ppd.sendpro360.pitneybowes.com/",
+      "admin_user": {
+        "userEmail": "sohail.ppd.admin1@yopmail.com",
+        "password": "Horizon#123"
+      },
+      "adminBasicUser": {
+        "userEmail": "Sohail.ppd.basic1@yopmail.com",
+        "password": "Horizon#123"
+      },
+      "client_user": {
+        "userEmail": "spss.ppd.7kusers.e1@yopmail.com",
+        "userName": "SPSS 7K Admin Dev User Ent1",
+        "password": "Horizon#123",
+        "enterpriseID": "?????",
+        "clientId": "0oa136ia3z2qUX2JV0h8",
+        "secret": "jTPHACMmjjJfuu7_3JXPBwTPpdrvxXqGRv9T0axd",
+        "locationId": "???????"
+      },
+      "err_user": {
+        "userEmail": "cypressqauser01@mailinator.com",
+        "userName": "Automation Admin",
+        "password": "Aqswde@123",
+        "enterpriseID": "?????",
+        "clientId": "????",
+        "secret": "",
+        "locationId": "???????"
+      },
+      "userProfile_TestData": {
+        "userId": "00u1basfg77nFQmZ60h8",
+        "emailId": "locclientqa1@yopmail.com",
+        "enterpriseName": "August Automation Enterprise",
+        "subscriptionId": "2763",
+        "bPN": "0010566sd829",
+        "deviceId": "45803322",
+        "ssoUser": "spanalytics_admin@yopmail.com",
+        "deviceIdOwner": "qaclient_supportauto1@yopmail.com",
+        "ssoOktaId": "yopmail.com_spanalytics_admin@yopmail.com",
+        "bpnUserId": "locclientqa1@yopmail.com"
+      },
+      "admin_user_TeamRole": {
+        "userEmail": "teamrole_supportauto@yopmail.com",
+        "userName": "Team Role qa client",
+        "password": "Horizon#123"
+      }
+    },
+    "admin-ppd": {
+      "URL": "https://admin-ppd.sendpro360.pitneybowes.com/",
+      "admin_user": {
+        "userEmail": "cezaryoff@gmail.com",
+        "userName": "Admin User1",
+        "password": "Qwerty@123",
+        "enterpriseID": "????",
+        "clientId": "??????",
+        "clientSecret": "???",
+        "locationId": "???????"
+      }
+    },
+    "fed-admin-qa": {
+      "URL": "https://spa-admin-ui-qa.fedramp.pitneycloud.com/",
+      "admin_user": {
+        "userEmail": "advanced_supportauto@yopmail.com",
+        "userName": "Advanced Support Automation",
+        "password": "Testing123$"
+      },
+      "adminBasicUser": {
+        "userEmail": "basic_supportauto@yopmail.com",
+        "userName": "Basic Support Automation",
+        "password": "Testing123$"
+      },
+      "client_user": {
+        "userEmail": "fedrampclientauto01@yopmail.com",
+        "userName": "Fedramp Client Support Automation",
+        "password": "Testing123$"
+      },
+      "err_user": {
+        "userEmail": "cypressqauser01@mailinator.com",
+        "userName": "Automation Admin",
+        "password": "Aqswde@123"
+      },
+      "userProfile_TestData": {
+        "userId": "00u1bapfe8fjpe7Og0h8",
+        "emailId": "fedrampclientauto01@yopmail.com",
+        "enterpriseName": "Support Console Automation Enterprise",
+        "subscriptionId": "4187",
+        "bPN": "001054444466829",
+        "deviceId": "895598",
+        "ssoUser": "unmesha_clientuser@yopmail.com",
+        "deviceIdOwner": "fedrampclientauto01@yopmail.com",
+        "ssoOktaId": "yopmail.com_unmesha_clientuser@yopmail.com",
+        "bpnUserId": "fedrampclientauto01@yopmail.com"
+      },
+      "admin_user_TeamRole": {
+        "userEmail": "teamrole_supportauto@yopmail.com",
+        "userName": "Team Role Fedramp QA User",
+        "password": "Horizon#123"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+UID,Role,Division,BPN,Location,Company Name,Customer Address,City,State,Country,Zip,Phone,DefaultCostCentre,Archive
+oidcuser1-spss@zinc.fr.nf,All Features,D2-L2-Test,16726220,1019 loc edit,Custom Location,243 Hall Place,Longview,TX,US,75601,6666768712,Test CA 001,False
+oidcuser2-spss@zinc.fr.nf,General User,Default,16726220,1019 loc edit,Custom Location,243 Hall Place,Longview,TX,US,75601,6666768712,SSO Custom CA Test1,True

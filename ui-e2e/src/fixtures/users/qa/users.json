@@ -1,0 +1,78 @@
+{
+  "noTrackingPlanUser": {
+    "username": "client.test@yopmail.com",
+    "password": "Clienttest!",
+    "enterpriseID": "0845"
+  },
+  "enterpriseAdminUser": {
+    "username": "clientuiautomation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "divisionAdminUser": {
+    "username": "clientuiautodivision01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "b3YmKy6o0KX"
+  },
+  "locationAdminUser": {
+    "username": "clientuiautoLocation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "clientAdminUser": {
+    "username": "adminuiautomation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "m8kXXKJElDW"
+  },
+  "divisionNotificationUser": {
+    "username": "userPBDivision01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "b3YmKy6o0KX"
+  },
+  "locationNotificationUser": {
+    "username": "userPBLocation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "canadaUser": {
+    "username": "cypresscaqa01@yopmail.com",
+    "password": "Pitney@123",
+    "enterpriseID": "9402"
+  },
+  "ssoClientUser": {
+    "username": "spss.qa1@yahoo.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "pitneyshipEnterpriseUser": {
+    "username": "Saastestinguser003@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "xMQZ9Dney6Q"
+  },
+  "allPlanUser": {
+    "username": "depclientautouser@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseName": "Department Auto Ent (sacec47)",
+    "subId": "sacec47"
+  },
+  "almCAUser": {
+    "username": "spss.qa.alm.kt.e1@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseName": "SPSS ALM QA KT Demo Ent1 (sac640b)",
+    "subId": "sac640b"
+  },
+  "ssoUsers": [
+    {
+      "username": "spanalytics_admin@yopmail.com",
+      "password": "Analytics@123"
+    },
+    {
+      "username": "unmesha_adminuser@yopmail.com",
+      "password": "Unmesha@06"
+    },
+    {
+      "username": "unmesha_clientuser@yopmail.com",
+      "password": "Unmesha@06"
+    }
+  ]
+}

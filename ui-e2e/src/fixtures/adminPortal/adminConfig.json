@@ -1,0 +1,162 @@
+{
+  "readMe": "tenantId: this is subscriptionID or subID in address-book DB; tenantId in locker DB locationId: this is ID taken from address-book DB necessary for creating new department",
+  "config": {
+    "admin-dev": {
+      "URL": "https://spa-admin-ui-dev.sendpro360.pitneycloud.com/",
+      "clientURL": "https://spa-ui-dev.sendpro360.pitneycloud.com/",
+      "ssoLoginURL": "https://spa-ui-dev.sendpro360.pitneycloud.com/sso",
+      "admin_user": {
+        "userEmail": "Sohail.dev.admin1@yopmail.com",
+        "userName": "Automation Devadmin",
+        "password": "Horizon#123"
+      },
+      "client_user": {
+        "userEmail": "automationsupportadmin01@yopmail.com",
+        "userName": "Automation Admin",
+        "password": "Horizon#123"
+      },
+      "sso_enterprise": "yopmail-sso",
+      "sso_users": [
+        {
+          "username": "spanalytics_admin@yopmail.com",
+          "password": "Analytics@123"
+        },
+        {
+          "username": "unmesha_adminuser@yopmail.com",
+          "password": "Unmesha@06"
+        },
+        {
+          "username": "unmesha_clientuser@yopmail.com",
+          "password": "Unmesha@06"
+        }
+      ]
+    },
+    "admin-qa": {
+      "URL": "https://spa-admin-ui-qa.sendpro360.pitneycloud.com/",
+      "clientURL": "https://spa-ui-qa.sendpro360.pitneycloud.com/",
+      "ssoLoginURL": "https://spa-ui-qa.sendpro360.pitneycloud.com/sso",
+      "admin_user_for_sso_automation": {
+        "userEmail": "sohail.admin1@yopmail.com",
+        "userName": "Automation Admin",
+        "password": "Horizon#123"
+      },
+      "admin_user": {
+        "userEmail": "automation_adminNK@yopmail.com",
+        "userName": "Automation Admin",
+        "password": "Aqswde@123"
+      },
+      "client_user": {
+        "userEmail": "automationsupportadmin01@yopmail.com",
+        "userName": "Automation Admin",
+        "password": "Horizon#123"
+      },
+      "ssoAdmin_user1": {
+        "userEmail": "pitneyshipapiauto-s@pb.com",
+        "userName": "SSO Automation Admin",
+        "password": "Bs7HB630BNUoQaZ"
+      },
+      "ssoAdmin_user2": {
+        "userEmail": "pitneyshipuiauto-s@pb.com",
+        "userName": "SSO Automation Admin",
+        "password": "Liquid@123"
+      },
+      "sso_enterprise": "SSO Ent2 for Platform (sa81ce4)",
+      "oidc_enterprise": "SPSS SSO OIDC QA PeS Ent1 (sac70cc)",
+      "sso_users": [
+        {
+          "username": "ssouser1-spss@ymail.rr.nu",
+          "password": "Group!234"
+        },
+        {
+          "username": "ssouser2-spss@ymail.rr.nu",
+          "password": "Horizon#123"
+        },
+        {
+          "username": "ssouser3-spss@ymail.rr.nu",
+          "password": "Horizon#123"
+        },
+        {
+          "username": "ssouser4-spss@ymail.rr.nu",
+          "password": "Horizon#123"
+        }
+      ],
+      "oidc_users": [
+        {
+          "username": "oidcuser1-spss@zinc.fr.nf",
+          "password": "Horizon#123"
+        },
+        {
+          "username": "oidcuser2-spss@zinc.fr.nf",
+          "password": "Horizon#123"
+        },
+        {
+          "username": "oidcuser3-spss@zinc.fr.nf",
+          "password": "Horizon#123"
+        }
+      ]
+    },
+    "fed-admin-dev": {
+      "URL": "https://spa-admin-ui-dev.fedramp.pitneycloud.com/",
+      "admin_user": {
+        "userEmail": "automationadminfedramp01@yopmail.com",
+        "userName": "Automation Admin1",
+        "password": "Horizon@123"
+      }
+    },
+    "fed-admin-qa": {
+      "URL": "https://spa-admin-ui-qa.fedramp.pitneycloud.com/",
+      "admin_user": {
+        "userEmail": "automationadminfedramp01@yopmail.com",
+        "userName": "Automation Admin1",
+        "password": "Horizon@123"
+      },
+      "client_user": {
+        "userEmail": "automationsupportadmin01@yopmail.com",
+        "userName": "Automation Admin",
+        "password": "Horizon#123"
+      }
+    },
+    "admin-ppd": {
+      "URL": "https://admin-ppd.sendpro360.pitneybowes.com/",
+      "admin_user": {
+        "userEmail": "automationplatformui01@yopmail.com",
+        "userName": "Admin User1",
+        "password": "Horizon#123"
+      },
+      "ssoAdmin_user1": {
+        "userEmail": "pitneyshipapiauto-s@pb.com",
+        "userName": "SSO Automation Admin",
+        "password": "Bs7HB630BNUoQaZ"
+      },
+      "ssoAdmin_user2": {
+        "userEmail": "pitneyshipuiauto-s@pb.com",
+        "userName": "SSO Automation Admin",
+        "password": "Liquid@123"
+      }
+    },
+    "admin-prod": {
+      "URL": "https://admin.sendpro360.pitneybowes.com/",
+      "admin_user": {
+        "userEmail": "pbsp360+prd.adm1@gmail.com",
+        "password": "Horizon#123"
+      }
+    },
+    "fed-admin-ppd": {
+      "URL": "https://admin-ppd.sendpro360gov.pitneybowes.com/",
+      "admin_user": {
+        "userEmail": "automationadminfedramp01@yopmail.com",
+        "userName": "Automation Admin1",
+        "password": "Horizon@1234"
+      }
+    },
+    "fedgc-admin-ppd": {
+      "URL": "https://admin-ppd.sendpro360gc.pitneycloud.com/",
+      "admin_user": {
+        "userEmail": "pbsp360+fgc.ppd.fa1@gmail.com",
+        "userName": "Automation Admin1",
+        "password": "Horizon#123"
+      }
+    }
+  }
+}
+

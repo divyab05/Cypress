@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    // "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "target": "es2020",
+    "module": "es2020",
+    "lib": ["es2020", "dom"],
+    "paths": {
+      "@spa/shared-services": ["src/app/shared-services/index.ts"],
+      "@spa/shared": ["src/app/shared/index.ts"],
+      "@spa/ledger": ["src/app/ledger/index.ts"],
+      "@spa/dialogs": ["src/app/dialogs/index.ts"],
+      "@spa/pendo": ["src/app/shared-services/pendo/index.ts"]
+    }
+  },
+  "angularCompilerOptions": {}
+}

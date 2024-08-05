@@ -1,0 +1,25 @@
+{
+  "clientAdminUser": {
+    "username": "8a582df2b31c23e9Kie4TGLwREmTValRumb19NcL+BHhqpqLtEZ1NxejaAF5XBzKZNc2ENNCNqN9E9rY",
+    "password": "fe848110a178273dSFT1zAuxGt1uxCEIxpbZrw=="
+  },
+  "noTrackingPlanUser": {
+    "username": "530314f181c47e85upoPHnPVAZRqBQ0iZqp6GSxNMLP8Uxrk8TIB8Y7dyv7MM4Pp19dWkw0W9aoJbxjo",
+    "password": "fe848110a178273dSFT1zAuxGt1uxCEIxpbZrw==",
+    "enterpriseID": "9536",
+    "enterpriseName": "Platform Automation - Notification"
+  },
+  "enterpriseAdminUser": {
+    "username": "c73cf2b370fb0f15SNb6MS+B9F2GxMIYpplOG8UXfJUEs6qqKT4uLnZlLejuUn+cz3+l3QXpex4WpEpD",
+    "password": "fe848110a178273dSFT1zAuxGt1uxCEIxpbZrw==",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "ssoClientUser01": {
+    "username": "ssouser2-spss@ymail.rr.nu",
+    "password": "Horizon#123"
+  },
+  "ssoClientUser02": {
+    "username2": "ssouser4-spss@ymail.rr.nu",
+    "password2": "Horizon#123"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "adminSSOUserControls": {
+    "buttons": {
+      "addNonSSOUser": "#add-user",
+      "addSSOUserMapping": "#add-sso-user-mapping",
+      "addSSOUserMappingSaveClose": "#btn-save-close"
+    },
+    "dropdown": {
+      "subsRoles": "#subscription-roles",
+      "assignLoc": "#location-list"
+    },
+    "grid": {
+      "uid": ".p-datatable-tbody > tr > td:nth-child(1)",
+      "roles": ".p-datatable-tbody > tr > td:nth-child(2)",
+      "location": ".p-datatable-tbody > tr > td:nth-child(3)",
+      "accessLevel": ".p-datatable-tbody > tr > td:nth-child(4)",
+      "editIcon": ".p-datatable-tbody > tr > td:nth-child(5)"
+    },
+    "inputs": {
+      "uid": "#uid",
+      "mappingSearch": "#search-input"
+    },
+    "radio": {
+      "adminLevelAt": "#admin-level-at > #%s",
+      "adminLevelAtEnt": "#admin-level-at > #enterprise",
+      "adminLevelAtDiv": "#admin-level-at > #division",
+      "adminLevelAtLoc": "#admin-level-at > #location",
+      "adminLevelAtUser": "#admin-level-at > #user"
+    },
+    "tab": {
+      "ssoUsersMappingsTab": "#mat-tab-label-0-1:contains('SSO Users Mappings')"
+    }
+  }
+}

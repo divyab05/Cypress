@@ -1,0 +1,2 @@
+Name,Code,Description,PasswordEnabled,PasswordCode,Status,ParentName,NextParentName,Billable
+AutoCA42955,newCAWithDuplicateName42955,desc text,FALSE,FALSE,ACTIVE,,,FALSE,

@@ -1,0 +1,3 @@
+UID,Role,Division,BPN,Location,Company Name,Customer Address,City,State,Country,Zip,Phone,DefaultCostCentre,Archive
+ssouser1-spss@ymail.rr.nu,912 audit role,D2-L2-Test,16726220,1019 loc edit,Custom Location,243 Hall Place,Longview,TX,US,75601,6666768712,Test CA 001,FALSE
+ssouser2-spss@ymail.rr.nu,Support User,Default,16726220,1019 loc edit,Custom Location,243 Hall Place,Longview,TX,US,75601,6666768712,SSO Custom CA Test1,TRUE

@@ -1,0 +1,195 @@
+{
+  "supportFormControls": {
+    "buttons": {
+      "companyLogo": "//*[contains(@class,'navbar')]//*[contains(@href,'/')]",
+      "navigateToSupportTab": "//*[@class='navbar-nav']//*[contains(text(),'Support')]",
+      "userIdSearchBy":"//*[@class='dropdown-item' and contains(text(),'User ID')]",
+      "emailIdSearchBy":"//*[@class='dropdown-item' and contains(text(),'Email ID')]",
+      "enterpriseNameSearchBy":"//*[@class='dropdown-item' and contains(text(),'Enterprise Name')]",
+      "subscriptionIdSearchBy":"//*[@class='dropdown-item' and contains(text(),'Subscription ID')]",
+      "bpnSearchBy":"//*[@class='dropdown-item' and contains(text(),'BPN')]",
+      "deviceIDSearchBy":"//*[@class='dropdown-item' and contains(text(),'Device ID')]",
+      "searchBtn":"//*[@id='search-btn']",
+      "userProfileTab":"//*[@class='mat-tab-label-content' and contains(text(),'User Profile')]",
+      "clientSetupTab":"//*[@class='mat-tab-label-content' and contains(text(),'Client Setup')]",
+      "sendingTab":"//*[@class='mat-tab-label-content' and contains(text(),'Sending')]",
+      "lockersTab":"//*[@class='mat-tab-label-content' and contains(text(),'Locker')]",
+      "fraudAlertsTab":"//*[@class='mat-tab-label-content' and contains(text(),'Fraud Alerts')]",
+      "sendProMailStationTab":"//*[contains(@id, 'ngb-nav') and contains(text(),'SendPro Mailstation')]",
+      "shipmentsTab":"//*[contains(@id, 'ngb-nav') and contains(text(),'Shipments')]",
+      "proofOfDeliveryTab":"//*[contains(@id, 'ngb-nav') and contains(text(),'Proof Of Delivery')]",
+      "uspsStampsTab":"//*[contains(@id, 'ngb-nav') and contains(text(),'USPS Stamps')]",
+      "postageTab":"//*[contains(@id, 'ngb-nav') and contains(text(),'Postage')]",
+      "spoiledPostageTab":"//*[contains(@id, 'ngb-nav') and contains(text(),'Spoiled Postage')]",
+      "shipingRow":"//*[contains(@id, 'toggle-ship')][1]",
+      "stampSheetRow":"//*[contains(@id, 'toggle')][1]",
+      "spoilStampBtn":"//*[contains(@id, 'btnSpoil')]",
+      "selectStampForSpoil":"//input[@id= 'check-mat-input']",
+      "refundCloseBtn":"//*[@id= 'button-refund']",
+       "dismissModalCssId": "#modalDismissButton",
+      "closeModalButtonCss": "button.close",
+      "closeModalButtonCss_2": "button[aria-label=Close]",
+      "refundShipmentBtn":"//*[contains(@id, 'btnRefund')]",
+      "refundYesBtn":"//span[contains(@class, 'ng-star-inserted') and text() = 'Yes']",
+      "trackingBtn":"//*[contains(@id, 'btnTrackDetail')]",
+      "editTrustScoreIcon":"#edit-trust-0",
+      "updateAndCloseButton":"#update-trust",
+      "historyTrustScoreIcon":"#fraud-history-0",
+      "divisionAndLocationTab":"//*/div[contains(text(), 'Divisions and Locations')]",
+      "expandDivision":"#expand-location-0",
+      "editLocationIcon":"i[class='pbi-icon-mini pbi-pencil']",
+      "subTabInClientSetup":"//*/a[contains(text(), '%s')]",
+      "searchButtonCSS":"#search-btn",
+      "selectSpoilCheckBox":"input[name='selectStamp']",
+      "ManageSupportUsersLink":"//div[@class='mat-tab-label-content'][contains(text(),'Manage Support Users')]",
+      "addProductUserLink":"//button[@id='add-user']",
+      "saveCloseBtn":"#save-and-close-btn",
+      "deleteUser":"#delete-user",
+      "deleteConfirmButton": "//button/span/*[contains(text(),'Delete')]"
+    },
+    "inputs": {
+      "firstName": "//*[@id='firstName']",
+      "lastName": "//*[@id='lastName']",
+      "email": "//*[@id='email']",
+      "searchText":"//*[@id='searchText']",
+      "personalInfoEmail":"//*[@id='email']",
+      "personalInfoOktaId":"//*[@id='oktaId']",
+      "sendingShipmentSearchText":"//*[@id='search-ship']",
+      "sendingProofSearchText":"//*[@id='search-proof']",
+      "sendingUSPSStampSearchText":"//*[@id='search-stamps']",
+      "sendingPostageSearchText":"//*[@id='search-pos']",
+      "commentsInputField":"#comments",
+      "placeholderSearch": "//input[@placeholder='Search']",
+      "bpnAccountNumber":"#bpn"
+    },
+    "checkBox": {
+      "activeUsers": "//*[contains(text(),'Active')]/..//*[@type='checkbox']",
+      "pbSupport": "//*[contains(text(),'PB Support')]/..//*[@type='checkbox']",
+      "pbOperator": "//*[contains(text(),'PB Operator')]/..//*[@type='checkbox']",
+      "pbService": "//*[contains(text(),'PB Service')]/..//*[@type='checkbox']",
+      "allowCustomEnterpriseId": "//*[contains(text(),'Custom Enterprise')]/..//*[@type='checkbox']"
+    },
+
+     "text": {
+      "stampTexts": "//*[contains(@class,'table-details-content')]//tr",
+      "reportTexts": "//table[@role='grid']//tbody//tr[1]",
+      "proofDeliveryText":"//*[contains(@aria-live,'polite') and contains(@class,'table-details')]//tr[2]",
+      "spoilTexts": "//*[@class='p-datatable-tbody']//tr[1]",
+      "trustScoreDropdownText":"div[role='option'] span",
+      "trustScoreInDropDown":"#trust-level span",
+      "oldTrustScoreScore":"tr[role='alert'] tr:nth-child(1) td:nth-child(4)",
+      "newTrustScore":"tr[role='alert'] tr:nth-child(1) td:nth-child(5)",
+       "toastTitle": "div.toast-title",
+       "toastMessage": "div.toast-message"
+    },
+    "radio": {
+      "active": "//*/mat-radio-button//*[contains(text(),'Active')]",
+      "inActive": "//*/mat-radio-button//*[contains(text(),'Inactive')]",
+      "basicRole":"#basic",
+      "teamLeadRole":"#teamLead"
+    },
+    "validations": {
+      "enterpriseName": "//*[@id='enterprise']/../p[contains(@class,'invalid')]",
+      "enterpriseId": "//*[@id='enterpriseID']/../p[contains(@class,'invalid')]"
+    },
+    "dropdown": {
+      "selectEnterprise": "//ng-select[@labelforid=\"Account\"]",
+      "assignEnterprises": "//*[@formcontrolname='adminLevelEntity']",
+      "assignEnterprisesInput": "//*[@formcontrolname='adminLevelEntity']//*/input",
+      "searchByDropDown":"//*[@id='searchby-dropdownMenu1']",
+      "userListDropDown":"//*[@id='users-list']",
+      "subscriptionListDropDown":"//*[@id='subscription-list']",
+      "trustScoreDropDown":"#trust-level",
+      "searchByDropDownList":"//*[@class='dropdown-item' and contains(text(),'%s')]",
+      "usersDropdown":"ng-select[bindlabel='detail.profile.label'] span[class='ng-value-label ng-star-inserted']",
+      "enterpriseDropdown":"#enterprisename",
+      "dropdownList":"div[role='option'] span"
+    },
+    "staticElements": {
+      "modal": "//*/mat-dialog-container",
+      "modalHeader": "//*[@class='modal-header']",
+      "toast": "//*[@id='toast-container']",
+      "tableGridRow": "table[role=grid] tbody tr"
+    },
+    "condition": {
+      "beVisible": "be.visible",
+      "notBeVisible": "not.be.visible",
+      "contains": "contains",
+      "isEmpty": "isEmpty",
+      "notContain": "not.contain",
+      "exist": "exist",
+      "notExist": "not.exist",
+      "beDisabled": "be.disabled",
+      "notBeDisabled": "not.be.disabled",
+      "haveAttr": "have.attr",
+      "and": "and",
+      "include": "include",
+      "notInclude": "not.include",
+      "notHaveValue": "not.have.value",
+      "haveValue": "have.value",
+      "haveLength": "have.length",
+      "notHaveClass": "not.have.class",
+      "haveClass": "have.class",
+      "stringNotEquals": "stringNotEquals",
+      "stringEquals": "stringEquals"
+    },
+    "values": {
+      "selectEnterpriseText": "Select Enterprise",
+      "allowCustomEnterpriseId": "Allow Custom Enterprise Id",
+      "pleaseEnterEnterpriseName": "Please enter enterprise name.",
+      "enterpriseNameShouldBeMin2CharsLong": "Enterprise name should be min 2 characters long.",
+      "pleaseEnterEnterpriseId": "Please enter enterprise id.",
+      "pbService": "PB Service",
+      "pbOperator": "PB Operator",
+      "pbSupport": "PB Support",
+      "active": "ACTIVE",
+      "inactive": "INACTIVE",
+      "assignedEnterprises_1": "Enterprises (1)",
+      "assignedEnterprises_0": "Enterprises (0)"
+    },
+
+    "cssData": {
+      "classOutOfService": "out-of-service",
+      "reserved": "reserved",
+      "disabled": "disabled",
+      "nonDedicated": "non-dedicated",
+      "dedicated": "dedicated",
+      "occupied": "occupied"
+    },
+    "testData": {
+      "enterpriseName": "Default Automation Enterprise",
+      "enterpriseId": "Custom_Enterprise_ID",
+      "adminUserActive": {
+        "firstName": "Joe",
+        "lastName": "Cotton",
+        "email": "joe.cotton@yopmail.com",
+        "groupEnterprise": "00gtl9duh2mvM1ddu0h7",
+        "groupOperator": "00gtl9gqhkrUYklEG0h7",
+        "groupSupport": "00g12gsdb834K3mdK0h8",
+        "userId": "00u17hpa1zuOYRVpv0h8"
+      },
+      "adminUserInactive": {
+        "firstName": "Frank",
+        "lastName": "CCC",
+        "email": "frank.CCC@yopmail.com",
+        "group": "00gtl9duh2mvM1ddu0h7",
+        "userId": "00u17iwy58ss0JFTm0h8"
+      }
+    },
+    "activeEnterprisesGrid": {
+      "enterprisePath": "//*[@role='grid']//tr[%s]/td[1]",
+      "nidPath": "//*[@role='grid']//tr[%s]/td[2]",
+      "sapEnterpriseNamePath": "//*[@role='grid']//tr[%s]/td[3]",
+      "editButtonPath": "//*[@role='grid']//tr[%s]/td[4]/button"
+    },
+    "adminUsersGrid": {
+      "namePath": "//*[@role='grid']//tr[%s]/td[1]",
+      "emailPath": "//*[@role='grid']//tr[%s]/td[3]",
+      "groupsPath": "//*[@role='grid']//tr[%s]/td[5]",
+      "statusPath": "//*[@role='grid']//tr[%s]/td[7]",
+      "assignedEnterprises": "//*[@role='grid']//tr[%s]/td[9]",
+      "editButton": "//*[@role='grid']//tr[1]/td[10]//*[@aria-label='Edit User']",
+      "deleteButton": "//*[@role='grid']//tr[1]/td[10]//*[@aria-label='Delete User']"
+    }
+  }
+}

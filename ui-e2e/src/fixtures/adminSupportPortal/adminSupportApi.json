@@ -1,0 +1,55 @@
+{
+  "readMe": "difference",
+  "endpoint": {
+    "enterpriseId": "/%s",
+    "subscriptionsUsersUserId": "/subscriptions/users/%s",
+    "usersPbAdmin": "/users/pbadmin/%s",
+    "addPostage": "/v1/funds",
+    "addStampSheet": "/v3/stampsheets/%s",
+    "deleteStampSheet": "/v1/stampsheets/%s",
+    "createStamp": "/v1/stamps",
+    "stampStatus": "/v1/stamps/status/%s",
+    "labelUSPS":"/v1/USPS/shipment",
+    "labelUPS":"/v1/UPS/shipment",
+    "labelFedEx":"/v1/FEDEX/shipment",
+    "labelerr":"/v2/ErrTrackingNum/Barcode?sheet=Y&size=10&fee=Y",
+    "labelUSPSRefund":"/v1/USPS/shipment/%s",
+    "subCarrier":"/v1/subCarriers?scope=spa&noPaging=true",
+    "env": {
+      "dev": {
+        "origin":"https://pitneybowes.oktapreview.com",
+        "apiPrefix": "https://climgmt-dev.sendpro360.pitneycloud.com/api/v1/enterprises",  
+        "bearer": "https://pitneybowes.oktapreview.com/oauth2/austlaq2lihWmiUEP0h7/v1/token", 
+        "sendingApiPrefix": "https://sending-service-dev.sendpro360.pitneycloud.com/api",
+        "errApiPrefix": "https://err-dev.sendpro360.pitneycloud.com/api",
+        "okta": "https://pitneybowes.oktapreview.com/oauth2/austlaq2lihWmiUEP0h7/v1/authorize?client_id=0oatl85b03pUUq2w70h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s",
+        "subcarrieractmgmt": "https://subcarrieractmgmt-dev.sendpro360.pitneycloud.com/api"
+       },
+      "qa": {
+        "origin":"https://pitneybowes.oktapreview.com",
+        "apiPrefix": "https://climgmt-qa.sendpro360.pitneycloud.com/api/v1/enterprises",      
+        "bearer": "https://pitneybowes.oktapreview.com/oauth2/austlb7mc40Fgj6ik0h7/v1/token",
+        "addrBookApiPrefix": "https://spa-admin-ui-qa.sendpro360.pitneycloud.com/api/subscription-management/v1",
+        "sendingApiPrefix": "https://sending-service-qa.sendpro360.pitneycloud.com/api",
+        "errApiPrefix": "https://err-qa.sendpro360.pitneycloud.com/api",
+        "okta": "https://pitneybowes.oktapreview.com/oauth2/austlb7mc40Fgj6ik0h7/v1/authorize?client_id=0oatl86njpT7nJLEX0h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s",
+        "subcarrieractmgmt": "https://subcarrieractmgmt-qa.sendpro360.pitneycloud.com/api"
+      },
+       "fed-qa": {
+        "origin":"https://sso.pitneycloud.com",
+        "apiPrefix": "https://climgmt-qa.sendpro360.pitneycloud.com/api/v1/enterprises",      
+        "bearer": "https://sso.pitneycloud.com/oauth2/ausrn35svt41lxHZw0h7/v1/token",
+        "addrBookApiPrefix": "https://spa-admin-ui-qa.sendpro360.pitneycloud.com/api/subscription-management/v1",
+        "sendingApiPrefix": "https://sending-service-qa.fedramp.pitneycloud.com/api",
+        "errApiPrefix": "https://err-qa.fedramp.pitneycloud.com/api",
+        "okta": "https://sso.pitneycloud.com/oauth2/ausrn35svt41lxHZw0h7/v1/authorize?client_id=0oas09vw05hIgfhpy0h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s",
+        "subcarrieractmgmt": "https://subcarrieractmgmt-qa.fedramp.pitneycloud.com/api"
+      },
+      "ppd": {
+        "apiPrefix": "https://api-ppd.sendpro360.pitneybowes.com/climgmt/api/v1/enterprises",
+        "addrBookApiPrefix": "https://api-ppd.sendpro360.pitneybowes.com/addressbook/api/v1",
+        "okta": "https://pitneybowes.oktapreview.com/oauth2/austlaq2lihWmiUEP0h7/v1/authorize?client_id=0oatl85b03pUUq2w70h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s"
+      }
+    }
+  }
+}

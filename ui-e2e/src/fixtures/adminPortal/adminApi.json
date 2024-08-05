@@ -1,0 +1,41 @@
+{
+  "readMe": "difference",
+  "endpoint": {
+    "enterpriseId": "/%s",
+    "subscriptionsUsersUserId": "/subscriptions/users/%s",
+    "usersPbAdmin": "/users/pbadmin/%s",
+    "ssoUserId": "/%s",
+    "deleteDivision": "/api/client-management/v1/divisions/%s",
+    "subscriptions": "/api/client-management/v1/subscriptions/%s",
+    "subscriptionsUserId": "/subscriptions/%s",
+    "env": {
+      "admin-dev": {
+        "apiPrefix": "https://climgmt-dev.sendpro360.pitneycloud.com/api/v1/enterprises",
+        "bearer": "https://pitneybowes.oktapreview.com/oauth2/austlaq2lihWmiUEP0h7/v1/token",
+        "okta": "https://pitneybowes.oktapreview.com/oauth2/austlb7mc40Fgj6ik0h7/v1/authorize?client_id=0oatl86njpT7nJLEX0h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s",
+        "addrBookApiPrefix": "https://spa-admin-ui-dev.sendpro360.pitneycloud.com/api/subscription-management/v1"
+      },
+      "admin-qa": {
+        "sessionToken": "https://pitneybowes.oktapreview.com/api/v1/authn",
+        "apiPrefix": "https://climgmt-qa.sendpro360.pitneycloud.com/api/v1/enterprises",
+        "clientManagement": "https://spa-admin-ui-qa.sendpro360.pitneycloud.com",
+        "bearer": "https://pitneybowes.oktapreview.com/oauth2/austlb7mc40Fgj6ik0h7/v1/token",
+        "addrBookApiPrefix": "https://spa-admin-ui-qa.sendpro360.pitneycloud.com/api/subscription-management/v1",
+        "okta": "https://pitneybowes.oktapreview.com/oauth2/austlb7mc40Fgj6ik0h7/v1/authorize?client_id=0oatl86njpT7nJLEX0h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s",
+        "deleteSSOPrefix": "https://submgmt-qa.sendpro360.pitneycloud.com/api/v1/adminusermappings"
+      },
+      "admin-ppd": {
+        "clientManagement": "https://admin-ppd.sendpro360.pitneybowes.com",
+        "sessionToken": "https://pitneybowes.oktapreview.com/api/v1/authn",
+        "apiPrefix": "https://api-ppd.sendpro360.pitneybowes.com/climgmt/api/v1/enterprises",
+        "addrBookApiPrefix": "https://admin-ppd.sendpro360.pitneybowes.com/api/subscription-management/v1",
+        "okta": "https://pitneybowes.oktapreview.com/oauth2/ausu9vcd4qIb9JPLG0h7/v1/authorize?client_id=0oau9srip3i3BYemC0h7&scope=openid%20profile%20email%20address%20phone%20offline_access%20spa%20anx%20adm%20pbadm&response_type=token%20id_token&redirect_uri=http://localhost:8081/auth&nonce=875234875&state=1324&response_mode=form_post&sessionToken=%s"
+      },
+      "admin-prod": {
+        "clientManagement": "https://admin.sendpro360.pitneybowes.com",
+        "sessionToken": "https://pitneybowes.okta.com/api/v1/authn",
+        "addrBookApiPrefix": "https://admin.sendpro360.pitneybowes.com/api/subscription-management/v1"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "clientAdminUser": {
+    "username": "adminuiautomation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "m8kXXKJElDW"
+  },
+  "noTrackingPlanUser": {
+    "username": "platform_automation002@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "9536",
+    "enterpriseName": "Platform Automation - Notification"
+  },
+  "enterpriseAdminUser": {
+    "username": "clientuiautomation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "divisionAdminUser": {
+    "username": "clientuiautodivision01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "b3YmKy6o0KX"
+  },
+  "locationAdminUser": {
+    "username": "clientuiautoLocation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "divisionNotificationUser": {
+    "username": "userppd33@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "b3YmKy6o0KX"
+  },
+  "locationNotificationUser": {
+    "username": "newuserppd44@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "pitneyshipEnterpriseUser": {
+    "username": "Saastestinguser003@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "xMQZ9Dney6Q"
+  },
+  "allPlanUser": {
+    "username": "depclientautouser@yopmail.com",
+    "password": "Horizon#123"
+  },
+  "almCAUser": {
+    "username": "almhamsafinal6ppd@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseName": "001 Alm ppd april16 (sac7f0f)",
+    "subId": "sac7f0f"
+  }
+}

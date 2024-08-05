@@ -1,0 +1,20 @@
+{
+  "nonSSOUsers": {
+    "ssoNonSSOUser": {
+      "name": "Jerry",
+      "lastName": "Smith",
+      "displayName": "Jerry Smith",
+      "email": "jerrysmith@yopmail.com"
+    },
+    "oidcNonSSOUser":{
+      "name": "Barry",
+      "lastName": "Anderson",
+      "displayName": "Barry Anderson",
+      "email": "barryanderson@yopmail.com"
+    },
+    "defaultNonSSOUser": {
+      "email": "automationnonssouser@yopmail.com",
+      "password": "Horizon#123"
+    }
+  }
+}

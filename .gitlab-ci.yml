@@ -1,0 +1,15 @@
+variables:
+  PRJ_APP_NAME: admin
+  PRJ_BUILD_TYPE: microsite
+  PRJ_DEPLOYMENT_TYPE: microsite
+  #microSiteBucket: 225934331380-dev-microsite-poc
+  PRJ_PLATFORM_TYPE: comm,ca,fedramp,global,sydney,london
+  PRJ_CONFIG_PROJECT_NAME: polyrepo-module-config
+  TST_TYPE: promotion
+  TST_TOOL: cypress
+  TST_ADMIN_PORTAL: "true"
+
+include:
+  - project: pitneybowes/innovation/sendtech/sendproanywhere/cicd/library/gitlab-ci
+    ref: master
+    file: cicd.yml

@@ -1,0 +1,4 @@
+Name,Code,Description,PasswordEnabled,PasswordCode,Status,ParentName,NextParentName,Billable
+ImpAutoParentCA,parentAccz001,ImpAutoParentCA,FALSE,,TRUE,,,FALSE
+ImpAutoSubAccCA,subAccz001,ImpAutoSubAccCA,FALSE,,TRUE,ImpAutoParentCA,,FALSE
+ImpAutoSubSubAccCA,subSubAccz001,ImpAutoSubSubAccCA,FALSE,,TRUE,ImpAutoSubAccCA,ImpAutoParentCA,FALSE

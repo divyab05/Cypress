@@ -1,0 +1,47 @@
+{
+    "noTrackingPlanUser": {
+      "username": "autofedclientFireball@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "0845"
+    },
+    "enterpriseAdminUser": {
+      "username": "enterpriseAdminFedqaclient@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "divisionAdminUser": {
+      "username": "division001@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "b3YmKy6o0KX"
+    },
+    "locationAdminUser": {
+      "username": "location001@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "clientAdminUser": {
+      "username": "enterpriseAdminFedqaclient@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "7756"
+    },
+    "enterpriseAdminUser_UserPersona": {
+      "username": "enterpriseuserpersonafedqaclient@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "divisionAdminUser_UserPersona": {
+      "username": "divuserpersonafedqaclient@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "b3YmKy6o0KX"
+    },
+    "locationAdminUse_UserPersona": {
+      "username": "locuserpersonafedqaclient@yopmail.com",
+      "password": "Horizon#123",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "ssoClientUser": {
+      "username": "spauser3-fed@mailinator.com",
+      "password": "Group!234",
+      "enterpriseID": "mxAMmKqY3MJ"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "reporterEnabled": "spec, cypress-mochawesome-reporter, mochawesome",
+  "cypressMochawesomeReporterReporterOptions": {
+    "reportDir": "../../dist/cypress/report",
+    "charts": true,
+    "reportPageTitle": "SP360 E2E Report",
+    "embeddedScreenshots": true,
+    "saveAllAttempts": true
+  },
+  "mochawesomeReporterOptions": {
+    "reportDir": "../../dist/cypress/mochawesome-report",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

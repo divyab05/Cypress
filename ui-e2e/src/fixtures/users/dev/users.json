@@ -1,0 +1,57 @@
+{
+  "noTrackingPlanUser": {
+    "username": "client.test@yopmail.com",
+    "password": "Clienttest!",
+    "enterpriseID": "2612"
+  },
+  "enterpriseAdminUser": {
+    "username": "clientuiautomation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "divisionAdminUser": {
+    "username": "clientuiautodivision01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "b3YmKy6o0KX"
+  },
+  "locationAdminUser": {
+    "username": "clientuiautoLocation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "clientAdminUser": {
+    "username": "adminuiautomation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "47QzzP8rv7g"
+  },
+  "divisionNotificationUser": {
+    "username": "userPBDivision01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "b3YmKy6o0KX"
+  },
+  "locationNotificationUser": {
+    "username": "userPBLocation01@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "mxAMmKqY3MJ"
+  },
+  "canadaUser": {
+    "username": "cypresscadev01@yopmail.com",
+    "password": "Pitney@123",
+    "enterpriseID": "6669"
+  },
+  "pitneyshipEnterpriseUser": {
+    "username": "Saastestinguser003@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseID": "xMQZ9Dney6Q"
+  },
+  "allPlanUser": {
+    "username": "depclientautouser@yopmail.com",
+    "password": "Horizon#123"
+  },
+  "almCAUser": {
+    "username": "spss.alm.user1@yopmail.com",
+    "password": "Horizon#123",
+    "enterpriseName": "SPSS ALM QA KT Demo Ent1 (sac640b)",
+    "subId": "sac640b"
+  }
+}

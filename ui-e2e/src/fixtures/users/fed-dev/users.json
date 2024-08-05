@@ -1,0 +1,43 @@
+{
+    "noTrackingPlanUser": {
+      "username": "automationclientfedramp03@yopmail.com",
+      "password": "Project@123",
+      "enterpriseID": "0845"
+    },  
+     "enterpriseAdminUser": {
+      "username": "automationclientfedramp01@yopmail.com",
+      "password": "Horizon#321",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "divisionAdminUser": {
+      "username": "division01@yopmail.com",
+      "password": "Horizon#321",
+      "enterpriseID": "b3YmKy6o0KX"
+    },
+    "locationAdminUser": {
+      "username": "location1@yopmail.com",
+      "password": "Horizon#321",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "clientAdminUser": {
+      "username": "automationclientfedramp01@yopmail.com",
+      "password": "Horizon#321",
+      "enterpriseID": "7756"
+    },
+    "enterpriseAdminUser_UserPersona": {
+      "username": "clientuiautomation001@yopmail.com",
+      "password": "Horizon#321",
+      "enterpriseID": "mxAMmKqY3MJ"
+    },
+    "divisionAdminUser_UserPersona": {
+      "username": "clientuiautodivision001@yopmail.com",
+      "password": "Aqwsde@123",
+      "enterpriseID": "b3YmKy6o0KX"
+    },
+    "locationAdminUse_UserPersona": {
+      "username": "clientuiautoLocation001@yopmail.com",
+      "password": "Aqswde@123",
+      "enterpriseID": "mxAMmKqY3MJ"
+    }
+  }
+  
